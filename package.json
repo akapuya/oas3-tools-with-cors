@@ -1,10 +1,9 @@
 {
   "name": "oas3-tools-cors",
-  "version": "2.2.9",
+  "version": "2.3.0",
   "description": "Swagger-UI and API Rest Routing for Open API v3.",
   "main": "dist/index.js",
   "scripts": {
-    "build": "rm -rf dist/ && tsc && cp -R src/middleware/swagger-ui dist/middleware/swagger-ui"
   },
   "author": {
     "name": "Avi Kapuya",
