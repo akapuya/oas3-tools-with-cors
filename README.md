@@ -1,1 +1,1 @@
-This is a forked project from https://github.com/apigee-127/swagger-tools with an attemp to add Open API 3 support. :)
+This is a forked project from oas3-tools with cors and app handling
