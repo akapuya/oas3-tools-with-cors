@@ -1,6 +1,6 @@
 {
-  "name": "oas3-tools",
-  "version": "2.2.0",
+  "name": "oas3-tools-with-cors",
+  "version": "2.2.4",
   "description": "Swagger-UI and API Rest Routing for Open API v3.",
   "main": "dist/index.js",
   "scripts": {
@@ -12,13 +12,13 @@
     "url": "https://github.com/HugoMario"
   },
   "bugs": {
-    "url": "https://github.com/bug-hunters/oas3-tools/issues"
+    "url": "https://github.com/akapuya/oas3-tools-with-cors/issues"
   },
-  "homepage": "https://github.com/bug-hunters/oas3-tools",
+  "homepage": "https://github.com/akapuya/oas3-tools-with-cors",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:bug-hunters/oas3-tools.git"
+    "url": "git@github.com:akapuya/oas3-tools-with-cors.git"
   },
   "keywords": [
     "api",
