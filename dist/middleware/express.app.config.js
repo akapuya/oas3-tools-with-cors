@@ -20,8 +20,8 @@ class ExpressAppConfig {
         if (appOptions.cors) {
             this.app.use(appOptions.cors);
         }
-        if (appOptions.middlewares) {
-            for (const m of appOptions.middlewares) {
+        if (appOptions.middleware) {
+            for (const m of appOptions.middleware) {
                 this.app.use(m);
             }
         }

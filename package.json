@@ -1,6 +1,6 @@
 {
   "name": "oas3-tools-cors",
-  "version": "2.3.2",
+  "version": "2.3.5",
   "description": "Swagger-UI and API Rest Routing for Open API v3.",
   "main": "dist/index.js",
   "scripts": {
