@@ -20,6 +20,11 @@ class ExpressAppConfig {
         if (appOptions.cors) {
             this.app.use(appOptions.cors);
         }
+        if (appOptions.middlewares) {
+            for (const m of appOptions.middlewares) {
+                this.app.use(m);
+            }
+        }
         const spec = fs.readFileSync(definitionPath, 'utf8');
         const swaggerDoc = jsyaml.safeLoad(spec);
         this.app.use(bodyParser.urlencoded());
